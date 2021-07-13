@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>playlist</title>
+<link rel="stylesheet" href="list.css">
+<script src="https://kit.fontawesome.com/44a29f837f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+
+        <div class="image"><img src="image.jpg"></div>
+        <div class="name">
+            <p>Starboy (feat.Daft Punk)</p>
+            <p class="small">The Weekend-Starboy</p>
+            <div class="player">
+            <table>
+              <tr>
+                 <td><input type="checkbox"  id="backward" ><label for="backward" class="backward"></label></td>
+                 <td><input type="checkbox"  id="play" title="Play" onclick="togglePlayPause()"><label for="play" class="play"></label></td>
+                 <td><input type="checkbox"  id="forward"><label for="forward" class="forward"></label></td></tr>
+             </table>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+      
+        <div class="par">
+        <div class="item">
+          <nav>
+              <a>1</a>
+              <a>Starboy (feat.Daft Punk)</a>
+              <a>3:14</a>
+              <a><input type="checkbox"  id="heart"><label for="heart" class="icons"></label></a>
+              <a><input type="checkbox"  id="menu"><label for="menu" class="menu"></label></a>
+          </nav>
+        </div>
+      </div>
+          <div class="par">
+        <div class="item">
+          <nav>
+              <a>2</a>
+              <a>Dua Lipa-Love Again</a>
+              <a>2:54</a>
+              <a><input type="checkbox"  id="heart1"><label for="heart1" class="icons1"></label></a>
+              <a><input type="checkbox"  id="menu"><label for="menu" class="menu"></label></a>
+          </nav>
+        </div>
+      </div>
+        <div class="par">
+        <div class="item">
+          <nav>
+              <a>3</a>
+              <a>Khalid-Better</a>
+              <a>2:41</a>
+              <a><input type="checkbox"  id="heart2"><label for="heart2" class="icons2"></label></a>
+              <a><input type="checkbox"  id="menu"><label for="menu" class="menu"></label></a>
+          </nav>
+        </div>
+      </div>
+        <div class="par">
+        <div class="item">
+          <nav>
+              <a>4</a>
+              <a>Billie Eilish-bad guy</a>
+              <a>3:26</a>
+              <a><input type="checkbox"  id="heart3"><label for="heart3" class="icons3"></label></a>
+              <a><input type="checkbox"  id="menu"><label for="menu" class="menu"></label></a>
+          </nav>
+        </div>
+      </div>
+        <div class="par">
+        <div class="item">
+          <nav>
+              <a>5</a>
+              <a>Tate McRae-slower</a>
+              <a>4:11</a>
+              <a><input type="checkbox"  id="heart4"><label for="heart4" class="icons4"></label></a>
+              <a><input type="checkbox"  id="menu"><label for="menu" class="menu"></label></a>
+          </nav>
+        </div>
+      </div>
+            <div class="footer">
+            <ul class="foot">
+                <li><a href="MusicPlayer.html" class="home"></a></li>
+                <li><input type="checkbox"  id="music" ><label for="music" class="music"></label></li>
+                <li><input type="checkbox"  id="edit"><label for="edit" class="edit"></label></li>
+            </ul>
+        </div>
+         <audio preload id="audio" controls>
+            <source src="sound.mp3">
+        </audio>
+    </div>
+</div>
+<script src="Music.js"></script>
+</body>
+</html>

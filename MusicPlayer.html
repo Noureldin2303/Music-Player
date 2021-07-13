@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music player</title>
+<link rel="stylesheet" href="music.css">
+<script src="https://kit.fontawesome.com/44a29f837f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+                
+                <div class="main"><a href="playlist.html" class="main"></a></div>
+                <div class="search"></div>
+                <div class="menu"><a href="#"><i class="fas fa-angle-down"></i></a></div>
+               <div class="image"><img src="image.jpg" width="75%"></div>
+    </div>
+    <div>
+         <div class="name">
+            <p>Starboy (feat.Daft Punk)</p>
+            <p class="small">The Weekend-Starboy</p>
+        </div>
+        <div class="progress">
+      <div class="progress-bar">
+        <div class="now"></div>
+      </div>
+      </div>
+      <div class="timer">
+     <p class="start"></p>
+     <p class="end"></p>
+        </div>
+     <table class="player">
+         <tr>
+            <td><input type="checkbox"  id="backward" ><label for="backward" class="backward"></label></td>
+            <td><input type="checkbox"  id="play" title="Play" onclick="togglePlayPause()"><label for="play" class="play"></label></td>
+            <td><input type="checkbox"  id="forward"><label for="forward" class="forward"></label></td></tr>
+        </table>
+        </div>
+        <div class="footer">
+            <ul class="foot">
+                <li><input type="checkbox"  id="sound" onclick="mute()"><label for="sound" class="sound"></label></li>
+                <li><input type="checkbox"  id="home" ><label for="home" class="home"></label></li>
+                <li><a href="playlist.html" class="music"></a></li>
+                <li><input type="checkbox"  id="heart"><label for="heart" class="icons"></label></li>
+            </ul>
+        </div>
+         <audio preload id="audio" controls>
+            <source src="sound.mp3">
+        </audio>
+</div>
+<script src="Music.js"></script>
+</body>
+</html>
