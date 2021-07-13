@@ -17,8 +17,8 @@
         width:340px;
         height: 600px;
         margin: 30px;
-background: rgb(17,16,16);
-background: linear-gradient(0deg, rgba(17,16,16,0.9902545490852591) 0%, rgba(0,0,0,1) 99%);
+        background: rgb(17,16,16);
+        background: linear-gradient(0deg, rgba(17,16,16,0.9902545490852591) 0%, rgba(0,0,0,1) 99%);
         border-radius:5%;
     }
     .card{
@@ -40,7 +40,7 @@ background: linear-gradient(0deg, rgba(17,16,16,0.9902545490852591) 0%, rgba(0,0
         width: 120px;
     }
     .card .image img{
-        width: 100%;
+         width: 100%;
          border-radius:10%;
          float: left;
     }
@@ -58,8 +58,8 @@ background: linear-gradient(0deg, rgba(17,16,16,0.9902545490852591) 0%, rgba(0,0
     .card .name .small{
         color:#f1cd00;
         font-size:9px;
-    }
-       .player{
+   }
+    .player{
         float:right;
         background: none;
         text-align: center;
@@ -71,40 +71,40 @@ background: linear-gradient(0deg, rgba(17,16,16,0.9902545490852591) 0%, rgba(0,0
         font-family: FontAwesome;
         z-index: 1;
         transition: all 0.3s ease-in;
-}
-table td{
-  width: 40px;
-}
-.backward:before{
-  content: "\f04a";
-  cursor: pointer;
-  transition: all 0.15s linear;
-}
-.forward:before{
-  content:"\f04e";
-  cursor: pointer;
-  transition: all 0.15s linear;
-}
+   }
+   table td{
+        width: 40px;
+   }
+  .backward:before{
+       content: "\f04a";
+       cursor: pointer;
+       transition: all 0.15s linear;
+  }
+ .forward:before{
+       content:"\f04e";
+       cursor: pointer;
+       transition: all 0.15s linear;
+ }
 .play:before{
-  content: "\f04b";
-  cursor: pointer;
-  transition: all 0.15s linear;
+      content: "\f04b";
+      cursor: pointer;
+      transition: all 0.15s linear;
 }
 .backward:hover:before{
-  color: #f1cd00;
-  transition: all 0.15s linear;
+     color: #f1cd00;
+     transition: all 0.15s linear;
 }
 .play:hover:before{
-  color: #f1cd00;
-  transition: all 0.15s linear;
+     color: #f1cd00;
+     transition: all 0.15s linear;
 }
 .forward:hover:before{
-  color: #f1cd00;
-  transition: all 0.15s linear;
+     color: #f1cd00;
+     transition: all 0.15s linear;
 }
 td > #play:checked ~ label.play:before{
-  content: "\f04c";
-  transition: all 0.15s linear;
+    content: "\f04c";
+    transition: all 0.15s linear;
 }
 input[type=checkbox] {
   visibility: hidden;
@@ -114,7 +114,7 @@ input[type=checkbox] {
 }
 audio{
     z-index: 0.5;
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .list{
@@ -127,16 +127,16 @@ audio{
     .par {
     position: relative;
     padding: 10px 58px 58px 0;
-  width: 280px;
-  height: 50px;
-  box-shadow: 20px 20px 50px #12121280;
-  border-radius: 5px;
-  padding-bottom: 0;
-  margin-bottom: 5px;
-  background: #0d0d0d;
-  border-top: 1px solid transparent;
-  border-left: 1px solid transparent;
-}
+    width: 280px;
+    height: 50px;
+    box-shadow: 20px 20px 50px #12121280;
+    border-radius: 5px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    background: #0d0d0d;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+ }
 .par .item nav{
     align-items: left;
     justify-content: left;
@@ -156,13 +156,13 @@ audio{
     left: 20px;
 }
 .par .item nav a:nth-child(3){
-     left: 200px;
+    left: 200px;
 }
 .par .item nav a:nth-child(4){
-     left: 240px;
+    left: 240px;
 }
 .par .item nav a:nth-child(5){
-     left: 280px;
+    left: 280px;
 }
 .icons:before{
   content: '\f004';
@@ -174,11 +174,11 @@ audio{
   transition: all 0.15s linear;
 }
 #heart:checked ~ label.icons:before{
-  content: "\f08a";
-  color: #777;
+   content: "\f08a";
+   color: #777;
    font-size: 18px;
-  line-height: 20px;
-  transition: all 0.15s linear;
+   line-height: 20px;
+   transition: all 0.15s linear;
 }
 .icons1:before{
   content: '\f004';
@@ -190,11 +190,11 @@ audio{
   transition: all 0.15s linear;
 }
 #heart1:checked ~ label.icons1:before{
-  content: "\f08a";
-  color: #777;
+   content: "\f08a";
+   color: #777;
    font-size: 18px;
-  line-height: 20px;
-  transition: all 0.15s linear;
+   line-height: 20px;
+   transition: all 0.15s linear;
 }
 .icons2:before{
   content: '\f004';
@@ -206,11 +206,11 @@ audio{
   transition: all 0.15s linear;
 }
 #heart2:checked ~ label.icons2:before{
-  content: "\f08a";
-  color: #f1cd00;
+   content: "\f08a";
+   color: #f1cd00;
    font-size: 18px;
-  line-height: 20px;
-  transition: all 0.15s linear;
+   line-height: 20px;
+   transition: all 0.15s linear;
 }
 .icons3:before{
   content: '\f004';
@@ -222,11 +222,11 @@ audio{
   transition: all 0.15s linear;
 }
 #heart3:checked ~ label.icons3:before{
-  content: "\f08a";
-  color: #777;
+   content: "\f08a";
+   color: #777;
    font-size: 18px;
-  line-height: 20px;
-  transition: all 0.15s linear;
+   line-height: 20px;
+   transition: all 0.15s linear;
 }
 .icons4:before{
   content: '\f004';
@@ -238,17 +238,17 @@ audio{
   transition: all 0.15s linear;
 }
 #heart4:checked ~ label.icons4:before{
-  content: "\f08a";
-  color: #f1cd00;
+   content: "\f08a";
+   color: #f1cd00;
    font-size: 18px;
-  line-height: 20px;
-  transition: all 0.15s linear;
+   line-height: 20px;
+   transition: all 0.15s linear;
 }
 .menu:before{
   color: #a6a6a6;
   font-size: 18px;
   content: "\f142";
-font-family: FontAwesome;
+  font-family: FontAwesome;
   cursor: pointer;
   transition: all 0.15s linear;
 }
@@ -268,7 +268,7 @@ font-family: FontAwesome;
   transition: all 0.3s ease-in;
 }
 .foot li{
-    padding: 0 30px 30px 0;
+  padding: 0 30px 30px 0;
   width: 100px;
   display: inline-block;
 }
