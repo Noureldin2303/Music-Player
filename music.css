@@ -88,24 +88,24 @@ input[type=checkbox] {
   z-index: 1;
 }
 a{
-  color:#fff;
-  text-decoration:none;
+       color:#fff;
+       text-decoration:none;
 }
-   .container .name p{
+.container .name p{
        font-size: 18px;
    }
-    .container .name .small{
+.container .name .small{
         color:#f1cd00;
         font-size:13px;
     }
-    .progress {
+.progress {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 350px;
       padding: 8px 50px 0 50px;
     }
-    .progress-bar {
+.progress-bar {
       position: relative;
       width: 70%;
       height: 5px;
@@ -113,7 +113,7 @@ a{
       border-radius: 5px;
       cursor: pointer;
     }
-    .now {
+.now {
       position: absolute;
       left: 0;
       display: inline-block;
@@ -121,7 +121,7 @@ a{
       border-radius:5%;
       background: #f1cd00;
     }
-    .now::after {
+.now::after {
       content: '';
       position: absolute;
       right: 0;
@@ -129,16 +129,16 @@ a{
       width: 2px;
       background-color: #f1cd00;
     }    
-     .timer{
+.timer{
          display: flex;
          font-size: 13px;
          padding:0 50px 0 45px;
     }
-    .timer p{
+.timer p{
         display: inline-block;
         padding-right: 185px;
     }
-    .player{
+.player{
   background: none;
   text-align: center;
   color: #fff;
@@ -150,34 +150,34 @@ a{
   transition: all 0.3s ease-in;
 }
 .player td{
-  width: 100px;
+    width: 100px;
 }
 .backward:before{
-  content: "\f04a";
-  cursor: pointer;
-  transition: all 0.15s linear;
+    content: "\f04a";
+    cursor: pointer;
+    transition: all 0.15s linear;
 }
 .forward:before{
-  content:"\f04e";
-  cursor: pointer;
-  transition: all 0.15s linear;
+    content:"\f04e";
+    cursor: pointer;
+    transition: all 0.15s linear;
 }
 .play:before{
-  content: "\f04b";
-  cursor: pointer;
-  transition: all 0.15s linear;
+    content: "\f04b";
+    cursor: pointer;
+    transition: all 0.15s linear;
 }
 .backward:hover:before{
   color: #f1cd00;                         
    transition: all 0.15s linear;
 }
 .play:hover:before{
-  color: #f1cd00;
-  transition: all 0.15s linear;
+    color: #f1cd00;
+    transition: all 0.15s linear;
 }
 .forward:hover:before{
-  color: #f1cd00;
-  transition: all 0.15s linear;
+    color: #f1cd00;
+    transition: all 0.15s linear;
 }
 td > #play:checked ~ label.play:before{
   content: "\f04c";
@@ -271,5 +271,5 @@ label.sound:before{
 }
 audio{
   z-index: 0.5;
-visibility: hidden;
+  visibility: hidden;
 }
